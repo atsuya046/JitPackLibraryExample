@@ -1,9 +1,8 @@
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.atsuya046.JitPackLibraryExample'
+
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'com.github.dcendents.android-maven'
-
-group='com.github.atsuya046.JitPackLibraryExample'
-version='0.3'
 
 android {
     compileSdkVersion 26
